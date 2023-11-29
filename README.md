@@ -2,7 +2,7 @@
 
 A simple data retriever chat, built on [AutoGen framework](https://microsoft.github.io/autogen/docs/Getting-Started/).
 
-It is a simplified version of autoretriever, which is integrated as part of [LetMeDoIt AI project](https://github.com/eliranwong/letmedoit)
+It is a simplified version of the "autoretriever" tool, integrated in our [LetMeDoIt AI project](https://github.com/eliranwong/letmedoit)
 
 # Install
 

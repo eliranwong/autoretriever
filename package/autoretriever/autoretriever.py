@@ -9,8 +9,8 @@ if not os.path.isfile(configFile):
     open(configFile, "a", encoding="utf-8").close()
 from autoretriever import config
 
+from autoretriever.health_check import HealthCheck
 if not config.openaiApiKey:
-    from autoretriever.health_check import HealthCheck
     HealthCheck.changeAPIkey()
     HealthCheck.saveConfig()
     print("Updated!")
